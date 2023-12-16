@@ -1,0 +1,164 @@
+::-webkit-scrollbar {
+    width: 5px;
+    height: 4px;
+}
+::-webkit-scrollbar-thumb {
+    background: #fdfdfd;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+::-webkit-scrollbar-thumb:window-inactive {
+    background: #fdfdfd;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: PoppinsRegular;
+    src: url("../fonts/poppinsregular.ttf");
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "PoppinsRegular", sans-serif;
+    margin: 0px;
+    background: white;
+}
+
+h1,h2,h3,h4,h5,p {
+    margin: 0px;
+}
+
+a {
+    background: transparent;
+    text-decoration: none;
+    cursor: pointer;
+    color: #E06666;
+    transition: 0.4s;
+}
+
+a:hover {
+    color: #C05656;
+}
+
+img {
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    background: whitesmoke;
+    padding: 12px 12px 100px 12px;
+}
+
+main {
+    margin: 0px auto;
+    padding: 20px;
+    max-width: 1000px;
+}
+
+.mmar {
+    margin-top: -60px;
+    margin-bottom: 16px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: white;
+    border-radius: 5px;
+}
+
+.textpar {
+    text-indent: 1.5em;
+    text-align: justify;
+    white-space-collapse: preserve;
+    padding: 8px;
+}
+
+.texth1{
+    padding: 4px 8px;
+}
+
+.a40 img {
+    width: 40%;
+}
+
+pre {
+    overflow: auto;
+    background: whitesmoke;
+    padding: 16px;
+    margin: 0px 8px;
+    color: black;
+    border-radius: 5px;
+    margin-bottom: 8px;
+}
+
+.a32 img {
+    width: 32%;
+}
+
+footer {
+    padding: 50px;
+    text-align: center;
+    background: whitesmoke;
+    color: black;
+}
+
+.p4txt {
+    padding: 4px;
+}
+
+.p4lol {
+    padding: 4px;
+    font-size: 24px;
+}
+
+.myform {
+    background: whitesmoke;
+    padding: 16px;
+    border-radius: 5px;
+}
+
+input[type=text], input[type=email], input[type=password], textarea, select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.button {
+    width: 100%;
+    background-color: #E06666;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.button:hover {
+    background-color: #C05656;
+}
+
+@media screen and (max-width: 600px) {
+    .mmar {
+        margin-top: -80px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .mmar {
+        margin-left: 12px;
+        margin-right: 12px;
+        margin-bottom: 20px;
+    }
+}
